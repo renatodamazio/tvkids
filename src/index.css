@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    outline: none;
+    text-decoration: none;
+}
+
+html, body, #root {
+    height: 100vh;
+}
+
+#root {
+    padding: 8px;
+    background: yellow;
+}
